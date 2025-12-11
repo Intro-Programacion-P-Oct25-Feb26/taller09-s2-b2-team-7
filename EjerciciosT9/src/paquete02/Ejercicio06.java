@@ -32,8 +32,7 @@ public class Ejercicio06 {
         String reporte = "";
         while (flag) {
 
-            System.out.println("ingrese el cafe a comprar\n0 = Café tradicional"
-                    + "\n1 = Café francés\n2 = Café aleman");
+            
             i = entrada.nextInt();
             System.out.println("ingrese la cantidad de tazas que desea comprar");
             taza = entrada.nextInt();
@@ -48,8 +47,8 @@ public class Ejercicio06 {
                 case 1:
                 case 2:
                     total = precio[i] * taza;
-                    reporte = String.format("%s%s (%s t), valor a cancelar "
-                            + "%.2f\n\t",reporte,
+                    reporte = String.format("\t%s%s (%s t), valor a cancelar "
+                            + "%.2f\n",reporte,
                             cafe[i], taza, total);
                     sumaf += total;
                     break;
