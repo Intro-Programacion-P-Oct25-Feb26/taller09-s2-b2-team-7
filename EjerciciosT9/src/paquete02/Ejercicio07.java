@@ -35,7 +35,6 @@ public class Ejercicio07 {
 
         for (int i = 0; i < numeros.length; i++) {
 
-            // Calculamos la diferencia aquí
             finalpr[i] = numeros[i] - promedio;
 
             reporte += String.format("Dato: %d - Diferencia del promedio: "
