@@ -22,6 +22,8 @@ public class Ejercicio04 {
             "Juan Vasquez"};
         String[] promediosCualitativos = new String[7];
         
+        
+        
     }
 
 }
